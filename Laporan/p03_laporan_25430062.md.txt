@@ -1,0 +1,92 @@
+# LAPORAN PRAKTIKUM BASIS DATA
+## MODUL 3: PEMODELAN DATA DENGAN ENTITY-RELATIONSHIP DIAGRAM (ERD)
+
+* **Nama:** Elvin Purna Hidayat
+* **NIM:** 25430062
+* **Kelas:** C
+
+1. Tujuan Praktikum
+Mampu mengidentifikasi entitas, atribut, dan kunci (Primary Key / Foreign Key) dari dokumen kebutuhan data proyek Toko Daring.
+
+Menentukan relasi beserta kardinalitas dan partisipasinya berdasarkan aturan bisnis (Business Rules).
+
+Mengonversi model konseptual ke dalam bentuk Entity-Relationship Diagram (ERD) menggunakan notasi Crow's Foot pada perangkat draw.io.
+
+2. Identifikasi Entitas dan Atribut
+Berdasarkan analisis sistem Toko Daring, didefinisikan 6 entitas utama beserta atribut dan kuncinya:
+
+Pelanggan
+
+id_pelanggan (PK, INT, Auto Increment)
+
+nama_pelanggan (VARCHAR)
+
+email_pelanggan (VARCHAR, UNIQUE)
+
+telepon_pelanggan (VARCHAR)
+
+alamat_pelanggan (TEXT)
+
+Kurir_Pengiriman
+
+id_kurir (PK, INT)
+
+nama_kurir (VARCHAR)
+
+layanan_kurir (VARCHAR)
+
+tarif_kurir (DECIMAL)
+
+Pesanan (Entitas Transaksi Utama)
+
+id_pesanan (PK, INT)
+
+no_pesanan (CHAR)
+
+tgl_pesanan (DATETIME)
+
+id_pelanggan (FK)
+
+id_kurir (FK)
+
+status_pesanan (ENUM)
+
+Pembayaran
+
+id_pembayaran (PK, INT)
+
+id_pesanan (FK)
+
+tgl_pembayaran (DATETIME)
+
+metode_pembayaran (ENUM)
+
+jumlah_bayar (DECIMAL)
+
+Produk
+
+id_produk (PK, INT)
+
+nama_produk (VARCHAR)
+
+kategori_produk (ENUM)
+
+harga_produk (DECIMAL)
+
+stok_produk (INT)
+
+Detail_Pesanan (Entitas Asosiatif / Many-to-Many)
+
+id_pesanan (PK, FK)
+
+id_produk (PK, FK)
+
+qty_pesanan (INT)
+
+harga_satuan_pesanan (DECIMAL)
+
+3. Rancangan Entity-Relationship Diagram (ERD)
+Berikut adalah hasil rancangan ERD menggunakan notasi Crow's Foot untuk proyek Toko Daring:
+
+4. Kesimpulan
+Pemodelan ERD dengan notasi Crow's Foot berhasil dirancang untuk memetakan hubungan antar data pada sistem Toko Daring. Relasi antar entitas seperti Pelanggan ke Pesanan, Pesanan ke Pembayaran, serta pemecahan relasi Many-to-Many melalui tabel asosiatif Detail_Pesanan telah terstruktur dengan baik dan siap diimplementasikan ke dalam basis data relasional.
