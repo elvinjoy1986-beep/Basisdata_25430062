@@ -2,8 +2,8 @@
 
 ## Identitas Mahasiswa
 * **Nama**: Elvin Purna Hidayat
-* **NIM**: 25430062
-* **Kelas / Kelompok**: Basis Data (NIM Berakhiran 62)
+* **NPM**: 25430062
+* **Kelas**: C
 
 ## Informasi Proyek
 * **Tema Proyek**: Toko Daring

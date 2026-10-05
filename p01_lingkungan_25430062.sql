@@ -12,4 +12,4 @@ CREATE USER IF NOT EXISTS 'tamu_062'@'localhost' IDENTIFIED BY 'PasswordKerja';
 -- Tamu hanya diberi hak baca (SELECT) sesuai prinsip least privilege
 GRANT SELECT ON kopma_062.* TO 'tamu_062'@'localhost';
 
-FLUSH PRIVILEGES;sss
+FLUSH PRIVILEGES;
