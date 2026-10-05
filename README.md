@@ -7,5 +7,5 @@
 
 ## Informasi Proyek
 * **Tema Proyek**: Toko Daring
-* **Nama Organisasi Fiktif**: Toko Berkah Jaya 062
+* **Nama Organisasi Fiktif**: Viinjay Store
 * **Lingkup Layanan**: Organisasi fiktif yang bergerak di bidang perdagangan daring (e-commerce) untuk menyediakan produk kebutuhan sehari-hari secara digital dengan layanan transaksi yang aman dan cepat.
