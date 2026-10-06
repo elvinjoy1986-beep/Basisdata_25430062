@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS toko_25430062;
+USE toko_25430062;
+DROP TABLE IF EXISTS detail_penjualan;
+DROP TABLE IF EXISTS penjualan;
+DROP TABLE IF EXISTS barang;
+DROP TABLE IF EXISTS anggota;
+DROP TABLE IF EXISTS petugas;
+CREATE TABLE petugas ( id_petugas SMALLINT NOT NULL AUTO_INCREMENT, kode_petugas CHAR(3) NOT NULL, nama_petugas VARCHAR(100) NOT NULL, PRIMARY KEY (id_petugas) ) ENGINE=InnoDB;
+CREATE TABLE anggota ( id_anggota INT NOT NULL AUTO_INCREMENT, no_anggota CHAR(6) NOT NULL, nama_anggota VARCHAR(100) NOT NULL, PRIMARY KEY (id_anggota) ) ENGINE=InnoDB;
+CREATE TABLE barang ( id_barang INT NOT NULL AUTO_INCREMENT, kode_barang VARCHAR(10) NOT NULL, nama_barang VARCHAR(100) NOT NULL, harga_jual DECIMAL(12,2) NOT NULL, PRIMARY KEY (id_barang) ) ENGINE=InnoDB;
+CREATE TABLE penjualan ( id_penjualan INT NOT NULL AUTO_INCREMENT, no_nota CHAR(12) NOT NULL, tgl_penjualan DATETIME NOT NULL, id_petugas SMALLINT NOT NULL, id_anggota INT NULL, PRIMARY KEY (id_penjualan) ) ENGINE=InnoDB;
+CREATE TABLE detail_penjualan ( id_penjualan INT NOT NULL, id_barang INT NOT NULL, qty SMALLINT NOT NULL, harga_satuan DECIMAL(12,2) NOT NULL, PRIMARY KEY (id_penjualan, id_barang) ) ENGINE=InnoDB;
