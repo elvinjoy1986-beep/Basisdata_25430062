@@ -1,14 +1,12 @@
 -- ============================================================================
 -- Berkas : p05_ddl_25430062.sql
 -- NAMA   : Elvin Purna Hidayat (NIM: 25430062)
--- TEMA   : Toko Daring (Viinjay Store G62) - Modul 5
+-- TEMA   : Toko Daring (Viinjay Store) - Modul 5
 -- ============================================================================
 
 USE toko_062;
 
--- ----------------------------------------------------------------------------
--- 1. PENGHAPUSAN TABEL (Urutan Anak ke Induk)
--- ----------------------------------------------------------------------------
+-- Urutan Hapus Wajib dari Anak ke Induk
 DROP TABLE IF EXISTS pengiriman;
 DROP TABLE IF EXISTS pembayaran;
 DROP TABLE IF EXISTS detail_pesanan;
