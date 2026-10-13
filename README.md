@@ -1,11 +1,18 @@
-# Basis Data - Modul 1 & Milestone Proyek 1
+# Repositori Praktikum Basis Data - Semester 3
 
-## Identitas Mahasiswa
-* **Nama**: Elvin Purna Hidayat
-* **NPM**: 25430062
-* **Kelas**: C
+**Nama:** Elvin Purna Hidayat 
+**NIM:** 25430062  
+**Kelas:** C
+**Mata kuliah**: Basis Data 
+**Institusi:** Universitas Muhammadiyah Metro  
 
-## Informasi Proyek
-* **Tema Proyek**: Toko Daring
-* **Nama Organisasi Fiktif**: Viinjay Store
-* **Lingkup Layanan**: Organisasi fiktif yang bergerak di bidang perdagangan daring (e-commerce) untuk menyediakan produk kebutuhan sehari-hari secara digital dengan layanan transaksi yang aman dan cepat.
+---
+
+## Identitas Proyek Mandiri
+
+* **Tema Proyek:** Toko Daring (E-Commerce)
+* **Nama Organisasi Fiktif:** Viinjay Store  (`viinjay_store`)
+* **Kode Basis Data:** `toko_062`
+
+### Lingkup Layanan Organisasi
+Viinjay Store G62 adalah platform e-commerce retail yang melayani penjualan produk elektronik dan perlengkapan komputer secara daring. Lingkup layanan sistem basis data mencakup pengelolaan katalog produk berbasis kategori, pencatatan data akun pelanggan dan verifikasi alamat, pemrosesan transaksi keranjang belanja (*cart*) serta pesanan (*orders*), integrasi status pembayaran, hingga pelacakan pengiriman barang (*shipping status*) untuk memastikan transparansi transaksi operasional toko.

@@ -1,5 +1,14 @@
-# Konfigurasi pengecualian Git
-.env
+# Pengecualian Berkas Kredensial & Lingkungan Kerja
+*.env
+*.pem
+*.key
 kredensial*.txt
-*.log
+passwords.txt
+config.local.php
+
+# Operating System & IDE Files
+.DS_Store
 Thumbs.db
+.vscode/
+.idea/
+*.tmp
