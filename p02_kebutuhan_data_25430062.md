@@ -1,4 +1,4 @@
-# Dokumen Kebutuhan Data - Viinjay Store G62 (Toko Daring)
+# Dokumen Kebutuhan Data - Viinjay Store (Toko Daring)
 
 **Nama Pengembang:** Elvin Purna Hidayat 
 **NIM:** 25430062  
