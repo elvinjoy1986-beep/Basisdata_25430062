@@ -1,10 +1,10 @@
 # Repositori Praktikum Basis Data - Semester 3
 
-**Nama:** Elvin Purna Hidayat 
-**NIM:** 25430062  
-**Kelas:** C
-**Mata kuliah**: Basis Data 
-**Institusi:** Universitas Muhammadiyah Metro  
+**Nama:** Elvin Purna Hidayat  
+**NIM:** 25430062   
+**Kelas:** C  
+**Mata kuliah**: Basis Data   
+**Institusi:** Universitas Muhammadiyah Metro    
 
 ---
 
