@@ -1,18 +1,16 @@
-# Repositori Praktikum Basis Data - Semester 3
+# Basis Data Viinjay Store G62 (`toko_062`)
 
-**Nama:** Elvin Purna Hidayat  
-**NIM:** 25430062   
-**Kelas:** C  
-**Mata kuliah**: Basis Data   
-**Institusi:** Universitas Muhammadiyah Metro    
+**Pemilik Repositori:** Elvin Purna Hidayat (NIM: 25430062)  
+**Kelas:** C    
+**Instansi:** Universitas Muhammadiyah Metro  
 
 ---
 
-## Identitas Proyek Mandiri
+## 1. Identitas Proyek
+Viinjay Store G62 adalah sistem basis data operasional (OLTP) toko daring yang dirancang untuk mengelola produk, transaksi penjualan, pelanggan, serta hak akses multi-peran secara aman, transaksional, dan patuh terhadap UU PDP.
 
-* **Tema Proyek:** Toko Daring (E-Commerce)
-* **Nama Organisasi Fiktif:** Viinjay Store  (`viinjay_store`)
-* **Kode Basis Data:** `toko_062`
-
-### Lingkup Layanan Organisasi
-Viinjay Store G62 adalah platform e-commerce retail yang melayani penjualan produk elektronik dan perlengkapan komputer secara daring. Lingkup layanan sistem basis data mencakup pengelolaan katalog produk berbasis kategori, pencatatan data akun pelanggan dan verifikasi alamat, pemrosesan transaksi keranjang belanja (*cart*) serta pesanan (*orders*), integrasi status pembayaran, hingga pelacakan pengiriman barang (*shipping status*) untuk memastikan transparansi transaksi operasional toko.
+## 2. Cara Instalasi Bersih (Master Script)
+1. Buka Terminal Windows.
+2. Jalankan perintah instalasi master:
+   ```bash
+   mysql -u root -p < install_uas_25430062.sql
