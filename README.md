@@ -1,6 +1,6 @@
 # Basis Data Viinjay Store G62 (`toko_062`)
 
-**Pemilik Repositori:** Elvin Purna Hidayat (NIM: 25430062)  
+**Pemilik Repositori:** Elvin Purna Hidayat (NPM: 25430062)  
 **Kelas:** C    
 **Instansi:** Universitas Muhammadiyah Metro  
 
